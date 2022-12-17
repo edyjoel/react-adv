@@ -1,0 +1,70 @@
+[
+  {
+    "type": "input",
+    "name": "firstName",
+    "placeholder": "Edy",
+    "label": "First Name",
+    "value": "",
+    "validations": [
+      {
+        "type": "required"
+      },
+      {
+        "type": "minLength",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "type": "input",
+    "name": "lastName",
+    "placeholder": "Joel",
+    "label": "Last Name",
+    "value": "",
+    "validations": [
+      {
+        "type": "required"
+      }
+    ]
+  },
+  {
+    "type": "input",
+    "name": "email",
+    "placeholder": "Email",
+    "label": "Email",
+    "value": "",
+    "validations": [
+      {
+        "type": "required"
+      },
+      {
+        "type": "email"
+      }
+    ]
+  },
+  {
+    "type": "select",
+    "name": "favoriteGame",
+    "label": "Favorite Game",
+    "value": "",
+    "options": [
+      {
+        "id": "1",
+        "label": "Game 1"
+      },
+      {
+        "id": "2",
+        "label": "Game 2"
+      },
+      {
+        "id": "3",
+        "label": "Game 3"
+      }
+    ],
+    "validations": [
+      {
+        "type": "required"
+      }
+    ]
+  }
+]
